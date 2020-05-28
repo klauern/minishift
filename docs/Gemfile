@@ -10,11 +10,11 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 gem 'nokogiri', '~> 1.8.1' # CVE-2017-9050 fix
 # Middleman Gems
-gem 'middleman', '~> 4.2'
-gem 'middleman-livereload', '~> 3.4'
-gem 'middleman-asciidoc'
-gem 'middleman-syntax'
-gem 'font-awesome-middleman'
+gem 'middleman', '~> 4.3', '>= 4.3.7'
+gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
+gem 'middleman-asciidoc', '>= 1.0.0'
+gem 'middleman-syntax', '>= 3.0.0'
+gem 'font-awesome-middleman', '>= 4.2.1'
 gem 'redcarpet'
 gem 'therubyracer'
 gem 'html-proofer'
